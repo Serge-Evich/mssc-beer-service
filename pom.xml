@@ -19,8 +19,8 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <jaxb.version>2.3.0</jaxb.version>
         <java.version>11</java.version>
-        <maven.compiler.source>$P{java.version}</maven.compiler.source>
-        <maven.compiler.target>$P{java.version}</maven.compiler.target>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
     </properties>
 
     <dependencies>
